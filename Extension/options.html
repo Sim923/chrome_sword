@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Options</title>
+        <style>
+            body
+            {
+                height: 300px;
+            }
+            .row
+            {
+                width: 100%;
+                margin: 10px 0;
+                float: left;
+                display: block;
+            }
+            #status
+            {
+                display:none;
+                background-color: #E2794A;
+                border: 1px solid #9d5535;
+                padding: 10px;
+                box-sizing: border-box;
+                color: white;
+            }
+            .clearx
+            {
+                clear:both;
+            }
+            #logged_in
+            {
+                color: green;
+                display: none;
+            }
+            #not_logged_in
+            {
+                color: red;
+                display: none;
+            }
+            #save
+            {
+                margin-left: 0px;
+                width: auto !important;
+                padding: 0px;
+                padding: 10px 20px !important;
+                border-radius: 5px;
+                margin-left: 15px;
+                font-family: MuseoSansCyrl ,sans-serif !important;
+                text-transform: capitalize;
+                font-size: 14px !important;
+                color: #fff;
+                background-color: #f57215;
+                display: inline-block;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="row" id="status">
+        </div>
+        <div class='row'>
+            <center>
+                <h3>Settings</h3>
+            </center>
+            
+        </div>
+        <div class="row">
+            <label for="show_side_tab">
+                <input type="checkbox" name="show_side_tab" id="show_side_tab" class="saveable">
+                Show side tab on websites
+            </label>
+        </div>
+
+        <div class="row">
+            <label for="autoopen">
+                <input type="checkbox" name="autoopen" id="autoopen" class="saveable">
+                Auto-open popup
+            </label>
+        </div>
+
+        <div class="row">
+        </div>
+
+        <div class="row">
+            <a href="#" id="save">Save</a>
+        </div>
+
+        <div class="clearx"></div>
+        <script src="js/jquery.min.js"></script>
+        <script src="src/options.js"></script>
+    </body>
+</html>

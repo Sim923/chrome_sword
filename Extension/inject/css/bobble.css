@@ -1,0 +1,136 @@
+/*.logo_non_vis{
+    position: fixed;
+    top:90px;
+    right:20px;
+    z-index: 99999;
+    	display: none;
+}
+.logo_non_vis>img{
+    max-width:56px;
+    cursor:pointer;
+}
+*/
+
+.notif_round{
+/*    display: inline-flex;*/
+    display: none;
+    align-items:center;
+    justify-content:center;
+    width:15px;
+    height:15px;
+    border-radius:50px;
+    background-color:red;
+    position: absolute;
+    bottom:55px;
+    right:15px;
+
+}
+.notif_round span{
+    font-size:12px;
+    font-family: MuseoSansCyrl ,sans-serif;
+    color:#fff;
+}
+
+.vertical_openner{
+    z-index: 999999;
+    cursor:pointer;
+    width:28px;
+    position: fixed;
+    top:150px;
+    right:-3px;
+    display: none;
+    /*transition:.4s ease all; */
+    height:70px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    /*border-radius:250px;*/
+    background-color:#e1dcdc;
+}
+.vertical_openner img{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
+    /*
+      Introduced in IE 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+}
+.vertical_openner:hover{
+    transition:.4s ease opacity; 
+    opacity:.7;
+    right: 0px;
+}
+.vertical_openner .html_logo{
+    top:7px;
+    left:5px;
+}
+
+.overflowed_head{
+    padding-right:10px;
+}
+
+.vertical_openner .html_logo{
+    position: relative;	
+    display: inline-block;
+    width:26px;
+    height:26px;
+}
+.vertical_openner .html_logo:before {
+    content: "";
+    width: 10.5px;
+    height: 10.5px;
+    border-bottom: 10.5px solid #535353;
+    border-left: 10.5px solid transparent;
+}
+.vertical_openner .html_logo:after{
+    position: relative;
+    top: 9px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10.5px solid #535353;
+    border-left: 10.5px solid transparent
+}
+.vertical_openner .round_html{
+    width: 8px;
+    height: 8px;
+    position: relative;
+    left: 9px;
+    z-index: 100000000;
+    background-color: #fff;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(48deg);
+}
+
+.vertical_openner .round_html>div{
+    width:5px;
+    height:5px;
+    border-radius:250px;
+    background-color:#FE7400;
+}
+
+
+.logo_like_an_image{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.logo_like_an_image>img{
+    transform: rotate(180deg);
+    width:18px;
+}
+.arrow_in_top_right_head{
+    width:100%;
+    cursor:pointer;
+}
+
+.vertical_openner
+{
+    display: none;
+}

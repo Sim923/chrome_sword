@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Aug-2018, 13:56:57
+    Author     : cashif
+*/
+
+.swordfish101{
+	position: fixed;
+	top:60px;
+	right:-450px;
+        width: 350px;
+/*        height: 230px;*/
+        z-index: 99999999;
+	transition: 0.5s ease all;
+        border: 0;
+}
+
+.force_lusha
+{
+    top: 350px !important;
+}
+
+.swordfish_search_trigger img
+{
+    width: 18px;
+    float: right;
+    position: relative;
+    left: 40px;
+    top: 45px;
+    cursor: pointer;
+}

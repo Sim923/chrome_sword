@@ -1,0 +1,32 @@
+
+body
+{
+    width: 362px;
+    height: 365px;
+}
+
+.find_contact_info
+{
+    top: 0;
+}
+
+.go_to_linkedin_btn{
+	margin-top:15px;
+}
+.go_to_linkedin_btn>a{
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 0px;
+    font-family: MuseoSansCyrl1 ,sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2b86d4;
+    display: inline-block;
+    position: relative;
+    transition: .4s ease all;
+    margin-bottom: 10px;
+}
+.go_to_linkedin_btn>a:hover{
+	opacity:.8;
+	text-decoration:none;
+}
